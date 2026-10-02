@@ -1,0 +1,27 @@
+# PHP
+*.log
+.DS_Store
+Thumbs.db
+
+# Composer
+vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Config
+config/database.php
+config/.env
+
+# Uploads
+uploads/
+temp/
+cache/
+
+# Sessions
+sessions/
